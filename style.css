@@ -9,19 +9,20 @@
 }
 
 body {
-	background-color: #f5eccd;
+	background-color: #ffeefb;
 }
 
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-
-	
+	margin: 15px auto;
+	border: 1px solid #2e2e2e;
+	max-width: 900px;
 
 }
 
 header {
-	grid-column: 1/5;
+	
 	background-color: #ff87ab;
 
 	height: 75px;
@@ -68,7 +69,22 @@ header nav ul li a:hover {
 	color: #2e2e2e;
 
 	padding: 15px;
-	height: 500px;
+	/*height: 500px;*/
+}
+
+.mainPanel .panelMenu ul {
+	list-style: none;
+
+}
+.mainPanel .panelMenu ul li {
+	display: block;
+	text-align: center;
+	background-color: #2e2e2e;
+	color: #ffeefb;
+	padding: 5px;
+	margin: 5px 0;
+	cursor: pointer;
+
 }
 
 
@@ -77,6 +93,23 @@ header nav ul li a:hover {
 .feed {
 	grid-column: 2/5;
 	padding: 15px;
-	height: 500px;
+	/*height: 500px;*/
+}
+
+.feed ul {
+	list-style: none;
+}
+
+.feedPanel {
+	margin: 5px 0 15px 0;
+	padding: 15px;
+	border: 1px solid #2e2e2e;
+
+}
+
+.feedPanel p {
+	padding-top: 15px;
+	line-height: 25px;
+	font-weight: 300;
 }
 
